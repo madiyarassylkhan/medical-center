@@ -1,0 +1,9 @@
+
+
+Установите зависимости:
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/sqlite
+go get -u github.com/gin-gonic/gin
+Запустите проект:
+go run main.go
+Теперь ваш проект запущен и доступен по адресу http://localhost:8080/appointments.
